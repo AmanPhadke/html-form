@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FFC374;
+}
+
+
+div.main{
+    width: 400px;
+    padding: 8px;
+    margin: 125px auto 0px auto;
+    background-color:  #124076;
+    border-radius: 30px;
+    color: #FFC374;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "width" 100;
+    box-shadow: 2px 2px 50px rgb(0,0,0);
+    resize: none;
+}
+
+h1{
+    text-align: center;
+}
+
+div.register{
+    margin-left: 48px;
+    
+}
+
+input#name{
+    width: 300px;
+    padding: 5px;
+    outline: none;
+    border: 2px solid #FFC374;
+    border-radius: 10px;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "width" 100;
+}
+
+.input:focus{
+    border: 2px solid #124076 ;
+}
+
+input#email{
+    width: 300px;
+    padding: 5px;
+    outline: none;
+    border: 2px solid #FFC374;
+    border-radius: 10px;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "width" 100;
+}
+
+input#number{
+    width: 300px;
+    outline: none;
+    padding: 5px;
+    border: 2px solid #FFC374;
+    border-radius: 10px;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "width" 100;
+}
+
+#submit{
+
+    width: 200px;
+    padding: 7px;
+    border: 1px;
+    border-radius: 10px;
+    background-color: #F9E897;
+    margin: 50px;
+    box-shadow: 1px 1px;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "width" 100;
+    cursor: pointer;
+}
+
+
+#submit:hover{
+    background-color: #FFC374;
+}

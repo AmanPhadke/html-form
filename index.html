@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin&family=Honk&family=Kalnia:wght@500&family=Madimi+One&family=Pixelify+Sans&family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="main">
+        <br><br>
+            <h1>Registration Form</h1>
+            <br><br>
+            <div class="register">
+            <form action="connect.php" method="post">
+                <label for="name" class="text">Username:</label>
+                <br>
+                <input type="text" placeholder="Enter your Username" name="username" id="name" required>
+                <br><br>
+
+                <label for="email" class="text">Email:</label>
+                <br>
+                <input type="email" placeholder="Enter your Email Id" name="email" id="email" required>
+                <br><br>
+
+                <label for="number" class="text">Phone Number:</label>
+                <br>
+                <input type="number" placeholder="Enter your Phone Number" name="phone_number" id="number" required>
+                <br><br>
+                <div class="container">
+                    <label for="gender" class="text">Gender:</label>
+                    <br>
+                    <input type="radio" name="gender" id="gender1">
+                    <span>Male</span>
+                    <input type="radio" name="gender" id="gender2">
+                    <span>Female</span>
+                    <input type="radio" name="gender" id="gender3">
+                    <span>Others</span>
+                </div>
+
+                <input type="submit" name="save" id="submit">
+
+
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
